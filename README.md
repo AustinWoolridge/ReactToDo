@@ -1,4 +1,8 @@
 ![image](https://github.com/AustinWoolridge/ReactToDo/assets/73041005/50cde761-19a6-4094-ac3f-1ac450186a64)
+![image](https://github.com/AustinWoolridge/ReactToDo/assets/73041005/c914fa29-66b9-435b-af54-d72211ee4270)
+![image](https://github.com/AustinWoolridge/ReactToDo/assets/73041005/8763d770-47ca-4a18-94c6-a8fa6cb52c0a)
+![image](https://github.com/AustinWoolridge/ReactToDo/assets/73041005/8cd0bdd3-4841-498d-ad1a-1898d818353c)
+
 
 Here's a concise summary for my ToDoMatic application that highlights its key features and technologies:
 
