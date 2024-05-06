@@ -1,4 +1,5 @@
 ![image](https://github.com/AustinWoolridge/ReactToDo/assets/73041005/50cde761-19a6-4094-ac3f-1ac450186a64)
+
 Here's a concise summary for my ToDoMatic application that highlights its key features and technologies:
 
 ToDoMatic Application:
