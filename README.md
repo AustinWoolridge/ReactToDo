@@ -1,5 +1,17 @@
 ![image](https://github.com/AustinWoolridge/ReactToDo/assets/73041005/50cde761-19a6-4094-ac3f-1ac450186a64)
+Here's a concise summary for my ToDoMatic application that highlights its key features and technologies:
 
+ToDoMatic Application:
+
+- Created a dynamic to-do list application using React, showcasing proficiency in front-end development.
+- Implemented task filtering functionality, allowing users to easily switch between viewing all tasks, active tasks, and completed tasks.
+- Integrated nanoid encryption for generating unique task IDs, ensuring secure data handling.
+- Utilized useState hook for efficient state management, enhancing performance and scalability.
+- Designed a user-friendly interface with responsive design, ensuring optimal viewing experience across devices.
+- Demonstrated proficiency in React components, encapsulating task elements for improved code maintainability.
+- Leveraged CSS styling and CSS-in-JS techniques for modern and visually appealing design.
+- Implemented error handling for adding tasks, enhancing user experience by providing informative feedback.
+- Demonstrated attention to accessibility standards by incorporating aria attributes for improved screen reader compatibility.
 
 
 # Getting Started with Create React App
