@@ -16,27 +16,27 @@ export default function App(props) {
 
     const [filter, setFilter] = useState('All');
     const filterList = FILTER_NAMES.map((name) => (
-        <FilterButton 
-            key = {name} 
-            name = {name}
-            isPressed ={name === filter}
-            setFilter = {setFilter} 
+        <FilterButton
+            key={name}
+            name={name}
+            isPressed={name === filter}
+            setFilter={setFilter}
         />
     ));
 
 
-    function deleteTask(id){
+    function deleteTask(id) {
         const remainingTasks = tasks.filter((task) => id !== task.id);
         setTasks(remainingTasks);
     }
-    function editTask(id, newName){
+    function editTask(id, newName) {
         const editedTaskList = tasks.map((task) => {
-                //checking if the id of edited task and the current task has same id
-                if ( id == task.id ) {
-                    return {...task, name: newName}
-                }
-                return task;
-            });
+            //checking if the id of edited task and the current task has same id
+            if (id === task.id) {
+                return { ...task, name: newName }
+            }
+            return task;
+        });
 
         setTasks(editedTaskList);
     }
@@ -45,9 +45,9 @@ export default function App(props) {
 
     function addTask(name) {
         const newTask = {
-                            id: `todo-${nanoid()}`,
-                            name,
-                            completed:  false
+            id: `todo-${nanoid()}`,
+            name,
+            completed: false
         };
         setTasks([...tasks, newTask]); // 3 dots is SPREAD SYNTAX. It adds end of tasks newTask. If you remove tasks it types over tasks.
     }
@@ -56,20 +56,20 @@ export default function App(props) {
     function toggleTaskCompleted(id) {
         const updatedTasks = tasks.map((task) => {
             if (id === task.id) {
-                return {...task, completed: !task.completed}
+                return { ...task, completed: !task.completed }
             }
             return task;
         });
         setTasks(updatedTasks);
     }
 
-    const taskList = tasks.filter(FILTER_MAP[filter]).map((task) => 
+    const taskList = tasks.filter(FILTER_MAP[filter]).map((task) =>
     (
         <Todo
-            id = {task.id}
-            name = {task.name}
-            completed = {task.completed}
-            key = {task.id}
+            id={task.id}
+            name={task.name}
+            completed={task.completed}
+            key={task.id}
             toggleTaskCompleted={toggleTaskCompleted}
             deleteTask={deleteTask}
             editTask={editTask}
@@ -81,11 +81,12 @@ export default function App(props) {
     const tasksNoun = taskList.length !== 1 ? 'tasks' : 'task';
     const headingText = `${taskList.length} ${tasksNoun} remaining`;
 
-    
-    
+
+
 
     return (
         <div className="todoapp stack-large">
+            <img src="./ReactTodo-icon.jpeg" alt="Logo" />
             <h1>TodoMatic</h1>
             <Form addTask={addTask} />
             <div className="filters btn-group stack-exception">
