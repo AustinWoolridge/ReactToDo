@@ -107,7 +107,6 @@ ToDoMatic Application:
 
 * [![React][React.js]][React-url]
 * [![JQuery][JQuery.com]][JQuery-url]
-* [![nanoid][https://github.com/ai/nanoid][nanoid-url]]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -226,7 +225,7 @@ Project Link: [https://github.com/AustinWoolridge/ReactToDo](https://github.com/
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-* []()
+* [A tiny (124 bytes), secure, URL-friendly, unique string ID generator for JavaScript](https://github.com/ai/nanoid)
 * []()
 * []()
 
@@ -265,6 +264,3 @@ Project Link: [https://github.com/AustinWoolridge/ReactToDo](https://github.com/
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-
-[https://github.com/ai/nanoid]: https://img.shields.io/badge/github
-[nanoid-url]: https://github.com/ai/nanoid
